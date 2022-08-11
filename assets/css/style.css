@@ -28,18 +28,6 @@ body::before {
   z-index: -1;
 }
 
-@font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?9k1mjc');
-  src:  url('../fonts/icomoon.eot?9k1mjc#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?9k1mjc') format('truetype'),
-    url('../fonts/icomoon.woff?9k1mjc') format('woff'),
-    url('../fonts/icomoon.svg?9k1mjc#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -53,16 +41,6 @@ body::before {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-noun-flower-4959188:before {
-  content: "\e900";
-}
-.icon-cat1:before {
-  content: "\e901";
-}
-.icon-noun-pokeball-594339:before {
-  content: "\e902";
 }
 
 
@@ -159,7 +137,7 @@ h7 {
   display: inline-block;
 }
 #header h2 {
-  font-size: 24px;
+  font-size: 28px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -169,10 +147,20 @@ h7 {
   border-bottom: 2px solid #B33077;
   padding-bottom: 6px;
 }
-#header img {
-  padding: 0;
-  margin: 0;
+
+#icons1, #icons2 {
+  width: 25%;
+  margin:0;
 }
+
+#icons1, #icons2 {
+  padding-bottom: 80px;
+}
+
+#icons2 {
+  padding-top: 80px;
+}
+
 #header .social-links {
   margin-top: 40px;
   display: flex;
