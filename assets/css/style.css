@@ -152,18 +152,6 @@ h7 {
   padding-bottom: 6px;
 }
 
-#icons1, #icons2 {
-  width: 25%;
-  margin:0;
-}
-
-#icons1, #icons2 {
-  padding-bottom: 80px;
-}
-
-#icons2 {
-  padding-top: 80px;
-}
 
 #header .social-links {
   margin-top: 40px;
@@ -381,6 +369,8 @@ section.section-show {
 section .container {
   background: rgba(0, 0, 0, 0.9);
   padding: 30px;
+    margin-bottom: 50px;
+
 }
 @media (max-width: 768px) {
   section {
@@ -447,7 +437,7 @@ section .container {
 
 .about-me #me {
   border-radius: 200px;
-  height: 350px;
+  height: auto;
   width: 350px;
 }
 
@@ -806,16 +796,6 @@ section .container {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-#beep {
-    height: 400px;
-    padding: 50px;
-    transform: rotate(-8deg);
-}
-
-#artboards {
-  float: right;
-}
-
 .contact .info-box {
   color: #444444;
   padding: 20px;
@@ -936,6 +916,22 @@ section .container {
 .contact .php-email-form button[type=submit]:hover {
   background: #302C2C;
 }
+
+
+#beep {
+    height: 400px;
+    padding: 50px;
+    transform: rotate(-8deg);
+}
+
+.contact .pic-box {
+  color: #444444;
+  padding: 20px;
+  width: 100%;
+  background: #000;
+}
+
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -956,6 +952,28 @@ section .container {
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
+#icons{
+    align-content: center;
+    margin-top: 50px;
+    margin-right: 8px;
+    padding-bottom: 30px;
+    max-width: 350px;
+    min-width: 350px;
+    background: #000;
+}
+    
+.ftricons {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+  text-align: right;
+  font-size: 13px;
+  color: #fff;
+  z-index: 999999;
+}   
+    
 .credits {
   position: fixed;
   right: 0;
