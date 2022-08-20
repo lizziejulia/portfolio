@@ -930,13 +930,16 @@ section .container {
     height: 400px;
     padding: 50px;
     transform: rotate(-8deg);
+    margin-bottom: 50px;
+    margin-top: -120px;
 }
 
 .contact .pic-box {
+  position: static;
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: #000;
+  bottom: 0;
 }
 
 
