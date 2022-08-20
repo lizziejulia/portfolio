@@ -366,12 +366,20 @@ section.section-show {
   opacity: 1;
   padding-bottom: 45px;
 }
+
+#abtme {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+
 section .container {
   background: rgba(0, 0, 0, 0.9);
   padding: 30px;
-    margin-bottom: 50px;
-
+  margin-bottom: 100px;
 }
+
 @media (max-width: 768px) {
   section {
     top: 120px;
@@ -954,25 +962,57 @@ section .container {
 --------------------------------------------------------------*/
 #icons{
     align-content: center;
-    margin-top: 50px;
-    margin-right: 8px;
-    padding-bottom: 30px;
-    max-width: 350px;
-    min-width: 350px;
-    background: #000;
+    padding-bottom: 20px;
 }
+
+@media screen and (max-width: 363px)  { 
+    #icons {
+    padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 993px)  { 
+    #icons {
+    padding-bottom: 0px;
+    }
+}
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media screen and (max-width: 419px)  { 
+    #icons {
+    width: 318px;
+    }
+}
+
+@media screen and (max-width: 599px) and (min-width: 420px)  { 
+    #icons {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 600px)  { 
+    #icons {
+        width: 450px;
+    }
+}
+
+
     
 .ftricons {
   position: fixed;
+  width: 100%;\
+  height: 100px;
   right: 0;
   left: 0;
   bottom: 0;
-  padding: 15px;
-  text-align: right;
-  font-size: 13px;
-  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
   z-index: 999999;
-}   
+  background: #000;
+}
     
 .credits {
   position: fixed;
