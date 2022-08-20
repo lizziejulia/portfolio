@@ -963,6 +963,7 @@ section .container {
 #icons{
     align-content: center;
     padding-bottom: 20px;
+    padding-top: 15px;
 }
 
 @media screen and (max-width: 363px)  { 
@@ -996,6 +997,27 @@ section .container {
     }
 }
 
+@media screen and (max-width: 992px)  { 
+    .ftricons {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+    background: #000;
+        
+    }
+}
+
+@media screen and (min-width: 993px)  { 
+    .ftricons {
+  align-content: right;
+  align-items: right;
+  text-align: right;   }
+    #icons {
+        margin-right: 20px;
+        width: 420px;
+    }
+}
+
 
     
 .ftricons {
@@ -1007,11 +1029,7 @@ section .container {
   bottom: 0;
   padding-top: 15px;
   padding-bottom: 30px;
-  align-content: center;
-  align-items: center;
-  text-align: center;
   z-index: 999999;
-  background: #000;
 }
     
 .credits {
