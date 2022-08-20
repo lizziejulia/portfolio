@@ -957,11 +957,18 @@ section .container {
   }
 }
 
+#kimmunicator {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 8px;
+    color: #302c2c;
+}
+
 /*--------------------------------------------------------------
 # Credits
 --------------------------------------------------------------*/
 #icons{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 15px;
 }
 
@@ -983,13 +990,6 @@ section .container {
   #icons {
   margin-right: 20px;
   width: 420px;
-    }
-}
-
-
-@media screen and (max-width: 363px)  { 
-    #icons {
-    padding-bottom: 30px;
     }
 }
 
