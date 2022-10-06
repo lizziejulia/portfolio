@@ -116,6 +116,14 @@ h7 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+#logo {
+    display: block;
+    width: 250px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+
 #header {
   transition: ease-in-out 0.3s;
   position: relative;
@@ -193,7 +201,7 @@ h7 {
 
 /* Header Top */
 #header.header-top {
-  height: 80px;
+  height: 100px;
   position: fixed;
   left: 0;
   top: 0;
@@ -992,32 +1000,31 @@ section .container {
     }
   #icons {
   margin-right: 20px;
-  width: 420px;
+  width: 220px;
     }
 }
 
 @media screen and (min-width: 993px)  { 
     #icons {
-    padding-bottom: 0px;
     }
 }
 
 /* smartphones, iPhone, portrait 480x320 phones */
 @media screen and (max-width: 419px)  { 
     #icons {
-    width: 318px;
+    width: 118px;
     }
 }
 
 @media screen and (max-width: 599px) and (min-width: 420px)  { 
     #icons {
-        width: 400px;
+        width: 200px;
     }
 }
 
 @media screen and (min-width: 600px)  { 
     #icons {
-        width: 450px;
+        width: 250px;
     }
 }
 
